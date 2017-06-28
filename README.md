@@ -51,12 +51,12 @@ npm i --save lodash
 ```
 
 ### Optional props
-* hiddenColumns - array of columns that passed in data, but are hidden from the user. Example:
+* **hiddenColumns** - array of columns that passed in data, but are hidden from the user. Example:
   ```html
   <DataGrid data={imagesArr} hiddenColumns={['id']} />
   ```
 
-* actions - allows to add and configure a column with custom actions such as delete and edit. The actions prop is an array. Each item in the array has action name and function. Here is an example:
+* **actions** - allows to add and configure a column with custom actions such as delete and edit. The actions prop is an array. Each item in the array has action name and function. Here is an example:
   ```javascript
   let actions = [{
       name: 'Delete',
