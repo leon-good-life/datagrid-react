@@ -23,7 +23,7 @@ cp -R PATH_OF_THIS_CLONED_PROJECT/datagrid-react/src/DataGrid PATH_OF_YOUR_PROJE
 import DataGrid from './DataGrid/DataGrid';
 ```
 
-3. Create an array of data.
+3. Create an array of some data.
 ```javascript
 const data = [{
     id: '1481235831572',
