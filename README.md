@@ -45,6 +45,10 @@ const data = [{
 ```html
 <DataGrid data={data} />
 ```
+5. This widget is using lodash. If your project has no lodash. Install it:
+```bash
+npm i --save lodash
+```
 
 ### Optional props
 * hiddenColumns - array of columns that passed in data, but are hidden from the user. Example:
