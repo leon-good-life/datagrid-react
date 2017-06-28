@@ -71,3 +71,6 @@ const data = [{
   ```html
   <DataGrid data={imagesArr} actions={actions} />
   ```
+  
+## Demo project
+* Simple CRUD (create, read, update, delete) contacts web application wirtten in React and Redux, and using this widget: https://github.com/leon-good-life/reactCRUD
