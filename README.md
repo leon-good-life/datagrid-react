@@ -23,7 +23,7 @@ cp -R PATH_OF_THIS_CLONED_PROJECT/datagrid-react/src/DataGrid PATH_OF_YOUR_PROJE
 import DataGrid from './DataGrid/DataGrid';
 ```
 
-3. Create an array of path/URLs to the images.
+3. Create an array of data.
 ```javascript
 const data = [{
     id: '1481235831572',
