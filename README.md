@@ -42,7 +42,7 @@ const data = [{
   }];
 ```
 4. Add DataGrid Component to your project and pass images array.
-```html
+```jsx
 <DataGrid data={data} />
 ```
 5. This widget is using lodash. If your project has no lodash. Install it:
@@ -52,7 +52,7 @@ npm i --save lodash
 
 ### Optional props
 * **hiddenColumns** - array of columns that passed in data, but are hidden from the user. Example:
-  ```html
+  ```jsx
   <DataGrid data={imagesArr} hiddenColumns={['id']} />
   ```
 
@@ -72,7 +72,7 @@ npm i --save lodash
       }
   }];
   ```
-  ```html
+  ```jsx
   <DataGrid data={imagesArr} actions={actions} />
   ```
   
